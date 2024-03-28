@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merge Overlapping Intervals</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <h1>Merge Overlapping Intervals</h1>
+  <body>
+    <div class="container">
+      <div class="input-group">
+        <label for="intervalsInput"
+          >Enter intervals (comma-separated pairs):</label
+        >
+        <br />
+        <br />
+        <input
+          type="text"
+          id="intervalsInput"
+          placeholder="EX : [1,3],[2,6],[8,10],[15,18]"
+        />
+      </div>
+      <br /><br />
+      <button onclick="mergeIntervals()">Merge Intervals</button>
+      <br /><br />
+      <div class="result" id="mergedIntervals"></div>
+      <br /><br />
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
